@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="공식페이지" />
+        <item
+                android:id="@+id/nav_tumbler"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="그림 Gallery" />
+        <item
+                android:id="@+id/nav_naver"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="개인블로그" />
+    </group>
+
+    <item android:title="연락처와 오시는 길">
+        <menu>
+            <item
+                    android:id="@+id/nav_map"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="오시는 길" />
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="연락하기" />
+        </menu>
+    </item>
+
+    <item android:title="Apps">
+        <menu>
+            <item
+                    android:id="@+id/nav_apps"
+                    android:title="안드로이드 마켓" />
+
+        </menu>
+    </item>
+
+
+</menu>

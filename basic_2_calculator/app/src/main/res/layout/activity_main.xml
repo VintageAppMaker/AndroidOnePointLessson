@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="#FFFF00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/lnMenu"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="4"
+                android:gravity="center"
+                android:id="@+id/firstNumber"
+                android:background="#FFFFFF"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        <Button
+                android:id="@+id/btnPlus"
+                android:layout_weight="0.2"
+                android:text="+"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        <Button
+                android:id="@+id/btnMinus"
+                android:layout_weight="0.2"
+                android:text="-"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="4"
+                android:gravity="center"
+                android:background="#FFFFFF"
+                android:id="@+id/secondNumber"
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/txtResult"
+            android:textSize="46dp"
+            android:gravity="center"
+            android:text="결과값"
+            android:layout_below="@id/lnMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+</RelativeLayout>

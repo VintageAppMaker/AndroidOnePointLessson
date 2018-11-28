@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/vfFlip"
+        android:layout_weight="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+    />
+
+    <LinearLayout
+        android:background="#eb160101"
+        android:layout_weight="0.3"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:textAllCaps="false"
+            android:background="#33eeeeee"
+            android:text="Glide Test"
+            android:textColor="#FFaa00"
+            android:layout_margin="15dp"
+            android:layout_weight="0.5"
+            android:id="@+id/btnGlide"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="15dp"
+            android:background="#33eeeeee"
+            android:textColor="#FFaa00"
+            android:text="Picasso Test"
+            android:layout_weight="0.5"
+            android:id="@+id/btnPicasso"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
