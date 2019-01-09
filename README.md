@@ -6,3 +6,6 @@
 
 * [wiki](https://github.com/VintageAppMaker/AndroidOnePointLessson/wiki)에서 필자수준 오탈자 관리합니다. 
 * [yes24](http://www.yes24.com/24/Goods/67533956?Acode=101)
+
+
+![](https://t1.daumcdn.net/cfile/tistory/99E82D485C1B024725)
